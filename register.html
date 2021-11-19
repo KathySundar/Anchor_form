@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 align="center">Conference Registration Form</h1>
+        <br>
+
+        <a href="index.html"><input type="button" value="Home Page"></a>
+        <br>
+        <br> 
+        <form novalidate>
+            <input type="text" value="Kubernetes" readonly><br><br>
+            <input type="text" Name="Fname" placeholder="First Name" required ><br><br>
+            <input type="text" Name="Lname" placeholder="Last Name" required><br><br>
+            <input type="email" Name="Email" placeholder="Email address" required><br><br>
+            <input type="text" Name="companyoruni"  placeholder="Company/Univeristy" required maxlength="30"><br><br>
+            <input type="text" Name="phone" placeholder="Phone number"> <br><br>
+            Gender       :<br>
+            <input type="radio" Name="rGender" value="Male">Male<br>
+            <input type="radio" Name="rGender" value="Feale">Female<br><br>
+
+            Select Speaker:<br>
+            <select name="spk" multiple size="2">
+                <option>JEFFRY MOLANUS</option>
+                <option>LIZ RICE</option>
+                <option>ALEXIS RICHARDSON</option>
+                <option>ARA PULIDO</option>
+                <option>RICARDO ROCHA</option>
+                <option>ROMAIN CHALUMEAU</option>
+            </select><br><br>
+            
+            Select Booking type: <br>
+            <input type="checkbox" name="cbox" value="Conf">Conference<br>
+            <input type="checkbox" name="cbox" value="Training">Training<br>
+            <input type="checkbox" name="cbox" value="Both">Conference & Training<br>
+            <input type="checkbox" name="cbox" value="Parking">Parking<br>
+            <input type="checkbox" name="cbox" value="Hotel">Hotel room booking<br><br>
+
+            Date and time of arrival: <input type="datetime-local" name="date"><br><br>
+
+            <input type="submit" Name="submit">
+        </form>
+    </body>
+</html>
